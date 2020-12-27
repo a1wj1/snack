@@ -1,0 +1,5 @@
+Ubuntu安装curses
+sudo apt-get install libncurses5-dev 
+
+编译curses模块程序
+编译时应加上链接语句-lcurses，如：gcc temp.c -o temp -lcurses
